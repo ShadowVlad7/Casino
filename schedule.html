@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="utf-8">
+    <title>Test field</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Однорукий бандит</h1>
+    <div id="game">
+        <div id="menu">
+            <label for="usernameInput">Введіть ваше ім’я: </label>
+            <input type="text" id="usernameInput">
+            <button id="startButton">Почати гру</button>
+        </div>
+        <h2 id="welcome" class="hidden"></h2>
+        <div id="scoreboard" class="hidden">
+            <p>Перемоги: <span id="wins">0</span></p>
+            <p>Поразки: <span id="losses">0</span></p>
+        </div>
+        <div id="slot-machine" class="hidden">
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+        </div>
+        <button id="spin" class="hidden" disabled>Spin</button>
+        <h3 id="result"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
